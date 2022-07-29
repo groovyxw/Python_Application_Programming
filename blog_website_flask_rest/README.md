@@ -65,5 +65,3 @@ Start using the app at http://127.0.0.1:5000
 
 ![GitHub Logo](imgs/post_test_9.PNG)
 
-![GitHub Logo](imgs/post_test.PNG)
-
