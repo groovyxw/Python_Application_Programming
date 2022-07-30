@@ -41,3 +41,7 @@ Platform: Windows WSL ubuntu
 ![GitHub Logo](imgs/test_3.PNG)
 
 ![GitHub Logo](imgs/test_2.PNG)
+
+
+Gooble slide link: 
+https://docs.google.com/presentation/d/1FyIrlJA3WTnbzaDEfuleL5Q8c7wE7_NfK12bjw21T9o/edit?usp=sharing
