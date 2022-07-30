@@ -30,3 +30,7 @@ Platform: Windows WSL ubuntu
     
 -Register according to the web page
 
+
+
+
+![GitHub Logo](imgs/test_2.PNG)
