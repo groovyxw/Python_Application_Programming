@@ -1,17 +1,12 @@
 # Simple registration system using CGI API
 
 ## Description
+Implement a simple registration system. 
+1. Main website page with "Start register" click button.
+2. "Register form" page, used for user to enter their personal information
+3. Process the personal information and let user to confirm the correctness of it.
+4. If confirmation is ok, show "sucessful" page; otherwise back to main page or registration form page.
 
-![GitHub Logo](imgs/welcomepage.PNG)
-
-
-![GitHub Logo](imgs/regpage.PNG)
-
-
-
-
-
-![GitHub Logo](imgs/confirm.PNG)
 
 ## Code Structure
 
@@ -39,7 +34,11 @@ Platform: Windows WSL ubuntu
 (Reference screenshots are attached below)
 
 
+![GitHub Logo](imgs/welcomepage.PNG)
 
+![GitHub Logo](imgs/regpage.PNG)
+
+![GitHub Logo](imgs/confirm.PNG)
 
 ![GitHub Logo](imgs/test_3.PNG)
 
