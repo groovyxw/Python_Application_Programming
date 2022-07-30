@@ -24,13 +24,13 @@
 Platform: Windows WSL ubuntu
 
 -download code
-    $ git clone url
+   > $ git clone url
     
 -enter html directory
-    $ cd html
+   > $ cd html
 
 -start the web server
-    $ python3 -m http.server --cgi
+   > $ python3 -m http.server --cgi
     
 -open the website on browser, e.g. Chrome
     http://localhost:8000/regist.html
