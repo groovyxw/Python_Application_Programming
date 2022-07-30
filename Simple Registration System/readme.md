@@ -11,13 +11,13 @@
 
 ![GitHub Logo](imgs/confirm.PNG)
 
-#code structure
+# Code Structure
 
 
 ![GitHub Logo](imgs/dir_structure.PNG)
 
 
-#How to run it?
+# How to run it?
 
 Platform: Windows WSL ubuntu
 
@@ -43,5 +43,5 @@ Platform: Windows WSL ubuntu
 ![GitHub Logo](imgs/test_2.PNG)
 
 
-Gooble slide link: 
+# Presentation: 
 https://docs.google.com/presentation/d/1FyIrlJA3WTnbzaDEfuleL5Q8c7wE7_NfK12bjw21T9o/edit?usp=sharing
