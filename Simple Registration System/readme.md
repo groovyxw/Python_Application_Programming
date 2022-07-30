@@ -33,9 +33,10 @@ Platform: Windows WSL ubuntu
    > $ python3 -m http.server --cgi
     
 -open the website on browser, e.g. Chrome
-    http://localhost:8000/regist.html
+   > http://localhost:8000/regist.html
     
--Register according to the web page(Reference screenshots are attached below)
+-Register according to the web page
+(Reference screenshots are attached below)
 
 
 
