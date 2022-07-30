@@ -11,6 +11,11 @@
 
 ![GitHub Logo](imgs/confirm.PNG)
 
+#code structure
+
+
+![GitHub Logo](imgs/dir_structure.PNG)
+
 
 #How to run it?
 
