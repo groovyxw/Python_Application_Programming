@@ -1,6 +1,6 @@
 # Blog_website_flask_rest
 
-## Problem description:
+## Description:
 Use flask and REST to implement a blog website. It support registration&confirmation, post blog, eidt profile and write comments, follow functions.
 
 
