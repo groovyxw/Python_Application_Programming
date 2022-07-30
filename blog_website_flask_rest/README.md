@@ -9,23 +9,23 @@ Use flask and REST to implement a blog website. It support registration&confirma
 - download the repo.
 > $ git clone url
 
--go to project folder
+- go to project folder
 > $ cd flasky
 
--set virtual environment
+- set virtual environment
 
 > $ python3 -m venv venv
 
--activate virt. environment
+- activate virt. environment
 
 > $ . venv/bin/activate
 
--install requirements and dependencies
+- install requirements and dependencies
 > $pip install wheel
 
 > $ pip install -r requirements/prod.txt
 
--export environ. variable
+- export environ. variable
 
 > $ export FLASK_APP=flasky.py
 
@@ -33,7 +33,7 @@ Use flask and REST to implement a blog website. It support registration&confirma
   
 > $ export MAIL_PASSWARD=<PWD>
 
--set database and migrations.
+- set database and migrations.
 
 > $ flask db stamp head
   
@@ -55,7 +55,7 @@ Use flask and REST to implement a blog website. It support registration&confirma
   
 > $python3 -m flask run
   
--open 2nd terminal
+- open 2nd terminal
 > $ sqlite3 data-dev.sqlite
   
 - set your user as confirmed manually.
@@ -63,7 +63,8 @@ Use flask and REST to implement a blog website. It support registration&confirma
   
 > $ UPDATE users SET role_id=3 WHERE id=1;
 > $ exit;
-Start using the app at http://127.0.0.1:5000
+  
+Start using the app at > http://127.0.0.1:5000
 
 ![GitHub Logo](imgs/post_test_9.PNG)
 
