@@ -45,10 +45,7 @@ Use flask and REST to implement a blog website. It support registration&confirma
 > $ flask run
   
 - go to http://127.0.0.1:5000/
-- register using email and pwd.
-  
-![GitHub Logo](imgs/Flask_test_9.PNG)
-  
+- register using email and pwd.  
   
 - go back to the terminal.
 > $python3 -m flask deploy
@@ -65,6 +62,8 @@ Use flask and REST to implement a blog website. It support registration&confirma
 > $ exit;
   
 Start using the app at > http://127.0.0.1:5000
+  
+![GitHub Logo](imgs/Flask_test_9.PNG)
 
 ![GitHub Logo](imgs/post_test_9.PNG)
 
