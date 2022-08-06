@@ -1,26 +1,28 @@
+#!/usr/bin/python3
+
 import smtplib
 
 def SendEmail(msg):
     # store gmail password in my google drive (not the most secure way)
-    # but it is much safer than storing it directly in this notebook, 
+    # but it is much safer than storing it directly in this notebook,
     # and upload it to github for everyone to see
     #with open('/content/drive/MyDrive/Colab\ Notebooks/pw.txt') as file:
-    #with open('/content/gdrive/My Drive/Colab Notebooks/pw.txt') as file:
+    ##with open('/content/gdrive/My Drive/Colab Notebooks/pw.txt') as file:
     #    data = file.readlines()
-        
-    gmail_user = 'cindy2016@gmail.com'  
+    #
+    gmail_user = 'cindy20160105@gmail.com'
+    #gmail_password = data[0]
     gmail_password = 'cyaqaymzfdtjjbob'
 
-    sent_from = gmail_user  
-    to = ['cindybayarea22@gmail.com']  
-    subject = msg  
+    sent_from = gmail_user
+    to = ['cindybayarea22@gmail.com']
+    subject = 'Shopping Cart System'
     body = '%s\n\n- Thank you' % msg
 
     email_text = \
 """From: %s
 To: %s
 Subject: %s
-
 %s
 """ % (sent_from, ", ".join(to), subject, body)
 
@@ -32,3 +34,5 @@ Subject: %s
     server.quit()
 
     print(f'Email: \n{email_text}')
+
+SendEmail("cindy")
