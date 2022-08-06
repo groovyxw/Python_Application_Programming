@@ -11,9 +11,9 @@ def SendEmail(msg):
     gmail_password = data[0]
 
     sent_from = gmail_user  
-    to = ['dctian@hotmail.com']  
+    to = ['cindybayarea22@gmail.com']  
     subject = msg  
-    body = '%s\n\n- David' % msg
+    body = '%s\n\n- Thank you' % msg
 
     email_text = \
 """From: %s
