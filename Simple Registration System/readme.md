@@ -38,7 +38,7 @@ Platform: Windows WSL ubuntu
 
 ![GitHub Logo](imgs/regpage.PNG)
 
-![GitHub Logo](imgs/confirm.PNG)
+![GitHub Logo](imgs/confirmation_center.PNG)
 
 ![GitHub Logo](imgs/test_3.PNG)
 
