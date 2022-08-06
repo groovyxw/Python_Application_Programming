@@ -10,9 +10,9 @@ def SendEmail(msg):
     ##with open('/content/gdrive/My Drive/Colab Notebooks/pw.txt') as file:
     #    data = file.readlines()
     #
-    gmail_user = 'cindy20160105@gmail.com'
+    gmail_user = 'cindy2015@gmail.com'
     #gmail_password = data[0]
-    gmail_password = 'cyaqaymzfdtjjbob'
+    gmail_password = 'cccyaqaymzfdtjjbob'
 
     sent_from = gmail_user
     to = ['cindybayarea22@gmail.com']
