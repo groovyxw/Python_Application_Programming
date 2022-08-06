@@ -4,7 +4,8 @@ def SendEmail(msg):
     # store gmail password in my google drive (not the most secure way)
     # but it is much safer than storing it directly in this notebook, 
     # and upload it to github for everyone to see
-    with open('/content/gdrive/My Drive/Colab Notebooks/pw.txt') as file:
+    with open('/content/drive/MyDrive/Colab\ Notebooks/pw.txt') as file:
+    #with open('/content/gdrive/My Drive/Colab Notebooks/pw.txt') as file:
         data = file.readlines()
         
     gmail_user = 'cindy2016@gmail.com'  
