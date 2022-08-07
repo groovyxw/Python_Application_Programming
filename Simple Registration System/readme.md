@@ -1,12 +1,13 @@
 # Simple registration system using CGI API
 
 ## Description
-Implement a simple registration system. 
+Implement a simple personal registration system. 
 1. Main website page with "Start register" click button.
 2. "Register form" page, used for user to enter their personal information
 3. Process the personal information and let user to confirm the correctness of it.
-4. If confirmation is ok, show "sucessful" page; otherwise back to main page or registration form page.
-
+4. If confirmation is ok, store user information into database, send confirmation email to user's email and show "sucessful" page; 
+   otherwise back to main page or registration form page.
+5. Use NGRok to map a local private address to a public address, so that anyone in the world can access this web server.
 
 ## Code Structure
 
@@ -23,12 +24,14 @@ Platform: Windows WSL ubuntu
     
 -enter html directory
    > $ cd html
-
+   > $ mv cgi-bin_v2 cgi-bin
+   
 -start the web server
    > $ python3 -m http.server --cgi
     
 -open the website on browser, e.g. Chrome
-   > http://localhost:8000/regist.html
+   > http://localhost:8000/regist.html (for internal test)
+   > http://97f0-2600-1700-d620-dd0-7007-861a-ad74-c12f.ngrok.io/regist.html (for external visiting)
     
 -Register according to the web page
 (Reference screenshots are attached below)
