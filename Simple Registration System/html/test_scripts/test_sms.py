@@ -10,8 +10,8 @@ def SendEmail(uname, uemail):
     #    data = file.readlines()
     #gmail_password = data[0]
  
-    gmail_user = 'cindy20160105@gmail.com'
-    gmail_password = 'cyaqaymzfdtjjbob'
+    gmail_user = 'cindy2016@gmail.com'
+    gmail_password = 'cccyaqaymzfdtjjbob'
 
     sent_from = gmail_user
     to = [uemail]
@@ -35,5 +35,5 @@ Subject: %s
     print(f'Email: \n{email_text}')
 
 uname = 'cindy'
-uemail = 'xwu@student.sfbu.edu'
+uemail = 'cindy@student.sfbu.edu'
 SendEmail(uname, uemail)
