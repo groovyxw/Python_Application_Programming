@@ -19,6 +19,7 @@ Implement a simple personal registration system.
 ## Enviroment Setup
 Platform: Windows WSL ubuntu
 ### web server setup
+Please follow the document web_server_setup.pdf to do the basic set up practice!
 
 ### MySql setup
 
