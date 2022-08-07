@@ -33,7 +33,7 @@ Platform: Windows WSL ubuntu
    > $ ./ngrok http 8000
 
 
-![GitHub Logo](imgs/ngrok2.PNG)
+![GitHub Logo](imgs/ngrok.PNG)
 
 
    PS: Please refer to the ngrok_setup.doc for installation
