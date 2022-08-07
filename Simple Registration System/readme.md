@@ -15,9 +15,17 @@ Implement a simple personal registration system.
 ![GitHub Logo](imgs/dir_structure.PNG)
 
 
-## How to run it?
 
+## Enviroment Setup
 Platform: Windows WSL ubuntu
+### web server setup
+
+### MySql setup
+
+### NGrok setup
+ PS: Please refer to the NGrok_setup.pdf for installation
+
+## How to run it?
 
 -download code
    > $ git clone url
@@ -37,7 +45,7 @@ Platform: Windows WSL ubuntu
 ![GitHub Logo](imgs/ngrok.PNG)
 
 
-   PS: Please refer to the ngrok_setup.doc for installation
+  
 
     
 -open the website on browser, e.g. Chrome
@@ -47,7 +55,7 @@ Platform: Windows WSL ubuntu
    > http://97f0-2600-1700-d620-dd0-7007-861a-ad74-c12f.ngrok.io/regist.html (for external visiting, may change in your run)
     
 -Register according to the web page
-(Reference screenshots are attached below)
+(Some reference screenshots are attached below)
 
 
 ![GitHub Logo](imgs/ngrok2.PNG)
