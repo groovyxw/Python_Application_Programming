@@ -19,10 +19,10 @@ Implement a simple personal registration system.
 ## Enviroment Setup
 Platform: Windows WSL ubuntu
 ### web server setup
-Please follow the document web_server_setup.pdf to do the basic setup
+Please follow the document [web_server_setup.pdf](https://github.com/groovyxw/Python_Application_Programming/blob/main/Simple%20Registration%20System/MySql_setup.pdf) to do the basic setup
 
 ### MySql setup
-Please follow the document MySql_setup.pdf to do the neccessary MySql setup
+Please follow the document [MySql_setup.pdf](https://github.com/groovyxw/Python_Application_Programming/blob/main/Simple%20Registration%20System/MySql_setup.pdf) to do the neccessary MySql setup
 ### NGrok setup
  PS: Please refer to the NGrok_setup.pdf for installation
 
