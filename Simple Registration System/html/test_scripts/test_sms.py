@@ -11,7 +11,7 @@ def SendEmail(uname, uemail):
     #gmail_password = data[0]
  
     gmail_user = 'cindy2016@gmail.com'
-    gmail_password = 'cccyaqaymzfdtjjbob'
+    gmail_password = 'cccyaqaymzfdtjjbob' #google APP account password
 
     sent_from = gmail_user
     to = [uemail]
