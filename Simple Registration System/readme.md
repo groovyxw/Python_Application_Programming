@@ -29,8 +29,15 @@ Platform: Windows WSL ubuntu
 -start the web server
    > $ python3 -m http.server --cgi
    
--start ngrok service
+-start ngrok service in a new termal
    > $ ./ngrok http 8000
+
+
+![GitHub Logo](imgs/ngrok2.PNG)
+
+
+   PS: Please refer to the ngrok_setup.doc for installation
+
     
 -open the website on browser, e.g. Chrome
    > http://localhost:8000/regist.html (for internal test)
