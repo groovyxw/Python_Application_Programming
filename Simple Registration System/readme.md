@@ -24,6 +24,7 @@ Platform: Windows WSL ubuntu
     
 -enter html directory
    > $ cd html
+   
    > $ mv cgi-bin_v2 cgi-bin
    
 -start the web server
