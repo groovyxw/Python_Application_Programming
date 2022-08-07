@@ -28,16 +28,21 @@ Platform: Windows WSL ubuntu
    
 -start the web server
    > $ python3 -m http.server --cgi
+   
+-start ngrok service
+   > $ ./ngrok http 8000
     
 -open the website on browser, e.g. Chrome
    > http://localhost:8000/regist.html (for internal test)
-   > http://97f0-2600-1700-d620-dd0-7007-861a-ad74-c12f.ngrok.io/regist.html (for external visiting)
+   
+   
+   > http://97f0-2600-1700-d620-dd0-7007-861a-ad74-c12f.ngrok.io/regist.html (for external visiting, may change in your run)
     
 -Register according to the web page
 (Reference screenshots are attached below)
 
 
-![GitHub Logo](imgs/welcomepage.PNG)
+![GitHub Logo](imgs/ngrok2.PNG)
 
 ![GitHub Logo](imgs/regpage.PNG)
 
