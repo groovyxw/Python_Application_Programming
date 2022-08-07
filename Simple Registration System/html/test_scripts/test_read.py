@@ -3,7 +3,7 @@
 import pymysql
 
 # Open database connection
-db = pymysql.connect("localhost","root","xin","cs531" )
+db = pymysql.connect("localhost","root","","cs531" )
 print("Connected to Database successfully!")
 
 # prepare a cursor object using cursor() method
@@ -17,11 +17,9 @@ try:
     output = cur.fetchall()
     print(output)  
     for row in output:
-      #uid = row[0]
       uname = row[0]
       uemail = row[1]
       # Now print fetched result
-      #print ("uid = %d,uname = %s,uemail = %d,udate = %s" % \
       print ("uname = %s,uemail = %s" % \
              (uname, uemail))
 except:
